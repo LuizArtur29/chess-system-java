@@ -7,7 +7,7 @@ public class Position {
 
     public Position(int row, int column) {
         this.row = row;
-        this.column = getColumn();
+        this.column = column;
     }
 
     public int getRow() {
